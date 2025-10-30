@@ -35,7 +35,7 @@ for s in showrooms:
         names.append(name)
         ratings.append(rating)
         addresses.append(address)
-    except:
+    except Exception:
         continue
 
 # Step 5: Save data to CSV
@@ -45,6 +45,6 @@ df = pd.DataFrame({
     "Address": addresses
 })
 df.to_csv("showrooms.csv", index=False)
-print(" Data saved to showrooms.csv successfully!")
+print("✅ Data saved to showrooms.csv successfully!")
 
 driver.quit()
