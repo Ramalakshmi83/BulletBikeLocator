@@ -21,4 +21,3 @@ Data will be saved in a file named `showrooms.csv` inside your project folder.
 
 ## 👩‍💻 Author
 **Ramalakshmi G**  
-(Full Stack Python Enthusiast)
